@@ -42,10 +42,11 @@ pnpm dev
 
 Then open http://localhost:3000.
 
-## Conventions
+## Contributing
 
-- Commits follow [Conventional Commits](https://www.conventionalcommits.org) (`feat:`, `fix:`, `docs:`, `chore:`...).
-- Features are built on branches like `feat/dice-roller` and merged through pull requests.
+- Work happens on branches from `develop`, merged through pull requests. `develop` is released to `main` every one to two weeks ([ADR 0006](docs/adr/0006-branching-strategy.md)).
+- Commits follow [Conventional Commits](https://www.conventionalcommits.org).
+- See [CONTRIBUTING.md](CONTRIBUTING.md) for the workflow and pull requests, and [docs/conventions.md](docs/conventions.md) for naming and code style.
 - Bigger technical decisions are written down in [`docs/adr`](docs/adr).
 
 ## License
